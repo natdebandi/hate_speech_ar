@@ -10,9 +10,12 @@ El trabajo consiste en entrenar dos modelos BERT y GPT, evaluar el performance y
 
 Para ello se entrenaron 4 modelos:
 (1) BETO (Bert en español) binario
+
 [1_finetunning_BETO_bin.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/5731ca1052f45a7e10dfcacf717acf1a71be03b8/1_finetunning_BETO_bin.ipynb)
 
 (2) BETO (BERT en español) multietietiqueta
+
+[1_finetunning_BETO_multiclass.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/1201a73795c613602254fe37b200d9440f0c8987/1_finetuning_BETO_multiclass.ipynb)
 
 (3) GPT (modelo GPT 4 mini) binario
 
