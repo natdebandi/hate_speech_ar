@@ -22,6 +22,12 @@ Para ello se entrenaron 4 modelos:
 (4) GPT (modelo GPT 4 mini) multietiqueta
 
 
+**Pruebas de los modelos**
+
+Para usar los modelos BETO se puede usar la siguiente notebook:
+
+La siguiente notebook, contempla las pruebas iniciales de GPT:
+
 
 
 
