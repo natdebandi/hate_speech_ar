@@ -8,26 +8,44 @@ Data set disponible en: https://huggingface.co/piuba-bigdata
 
 El trabajo consiste en entrenar dos modelos BERT y GPT, evaluar el performance y aplciar el mejor modelo para caracterizar los discrusos de odio en X en Argentina durante la pandemia.
 
-Para ello se entrenaron 4 modelos:
-(1) BETO (Bert en español) binario
+Indice de cuadernos
+**(1) Finetuning de BETO**
 
+BETO (Bert en español) binario  (hateful / not hateful)
 [1_finetunning_BETO_bin.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/5731ca1052f45a7e10dfcacf717acf1a71be03b8/1_finetunning_BETO_bin.ipynb)
 
-(2) BETO (BERT en español) multietietiqueta
+BETO (BERT en español) multietietiqueta (hateful, WOMEN, RACISM, etc.)
 
 [1_finetunning_BETO_multiclass.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/1201a73795c613602254fe37b200d9440f0c8987/1_finetuning_BETO_multiclass.ipynb)
 
-(3) GPT (modelo GPT 4 mini) binario
+Cuaderno de pruebas de los moelo BETO
+[prueba_modelos.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/a03a6a396c0741589779d9ba91031ca328ab25d8/prueba_modelos.ipynb)
 
-(4) GPT (modelo GPT 4 mini) multietiqueta
+**(2) GPT 4 mini sin finetuning**
 
-
-**Pruebas de los modelos**
-
-Para usar los modelos BETO se puede usar la siguiente notebook:
-
-La siguiente notebook, contempla las pruebas iniciales de GPT:
+[Pruebas_GPT.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/a03a6a396c0741589779d9ba91031ca328ab25d8/Pruebas_GPT.ipynb)
 
 
+*Clasificación binaria (hateful / not hateful)*
+
+Para aplicar el GPT mediante batch:
+
+[2_GPT_bin_batch2.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/a03a6a396c0741589779d9ba91031ca328ab25d8/2_GPT_bin_batch2.ipynb)
+
+Para evaluarlo desde Batch:
+
+[2_GPT_evaluate_batch2.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/a03a6a396c0741589779d9ba91031ca328ab25d8/2_GPT_evaluate_batch2.ipynb)
+
+*Multietiqueta (hateful, WOMEN, RACISM, etc.)*
+
+Para aplicar el GPT mediante batch:
+
+[2_GPT_multiclass_batch.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/a03a6a396c0741589779d9ba91031ca328ab25d8/2_GPT_multiclass_batch.ipynb)
+
+Para evaluarlo desde Batch:
+
+[2_GPT_evaluate_batch_multi.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/a03a6a396c0741589779d9ba91031ca328ab25d8/2_GPT_evaluate_batch_multi.ipynb)
+
+**(3) Finetuning de GPT 4 mini**
 
 
