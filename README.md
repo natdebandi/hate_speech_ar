@@ -18,7 +18,7 @@ BETO (Bert en español) binario  (hateful / not hateful)
 
 BETO (BERT en español) multietietiqueta (hateful, WOMEN, RACISM, etc.)
 
-[1_finetunning_BETO_multiclass.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/1201a73795c613602254fe37b200d9440f0c8987/1_finetuning_BETO_multiclass.ipynb)
+[1_finetunning_BETO_multiclass2.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/97221e5efae9ebfe0ad9e52142fe3b270ac1d3bd/1_finetuning_BETO_multiclass2.ipynb))
 
 Cuaderno de pruebas de los moelo BETO
 [prueba_modelos.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/a03a6a396c0741589779d9ba91031ca328ab25d8/prueba_modelos.ipynb)
