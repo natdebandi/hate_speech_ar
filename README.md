@@ -68,7 +68,9 @@ Recuperacón del modelo, evaluación inicial del modelo y preparación de archiv
 
 [3_GPT_evaluate_bin_finetunning.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/5f998b23eb9b1f4edccea7c4ba6dbf8deb7b1cc0/3_GPT_evaluate_bin_finetunning.ipynb)
 
+Recupero la clasificación realizada con el modelo binario con FINETUNING al conjunto de test y aplico las métricas:
 
+[3_GPT_evaluate_bin_finetuning_2.ipynb)](https://github.com/natdebandi/hate_speech_ar/blob/2da1dfac5d7ad5e20c43f5a5838a3bc6a5edde6c/3_GPT_evaluate_bin_finetuning_2.ipynb)
 
 
 
