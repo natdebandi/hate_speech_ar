@@ -58,7 +58,18 @@ Para evaluarlo desde Batch:
 
 Este último proceso consiste en realizar un finetuning de GPT 3.5 (GPT 4 no está disponible para realizar finetuning en nuestro caso) tanto para una clsificación binaria como multiclase.
 
-Para ello se preparó el archivo de finetunning (similar al esquema de BATCH) y se envía a GPT para entrenamiento. Luego se recupera el resultado
+Para ello se preparó el archivo de finetunning (similar al esquema de BATCH) y se envía a GPT para entrenamiento. Luego se recupera el resultado (GET) y se envía el archivo de TEST para clasificación con el nuevo modelo (nuevamente medinte batch) y finalmente se obtiene el resultado y se envalua. Es decir que hay tres notebooks involucradas:
+
+Preparación archivo para fine tunning:
+
+[3_GPT_finetuning_bin.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/ffbf927fec6207eace6612ee0c148967862a588e/3_GPT_finetuning_bin.ipynb)
+
+Recuperacón del modelo, evaluación inicial del modelo y preparación de archivo para usar el claisificador nuevo (vía BATCH):
+
+[3_GPT_evaluate_bin_finetunning.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/5f998b23eb9b1f4edccea7c4ba6dbf8deb7b1cc0/3_GPT_evaluate_bin_finetunning.ipynb)
+
+
+
 
 
 
