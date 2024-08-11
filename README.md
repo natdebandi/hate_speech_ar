@@ -88,7 +88,13 @@ Recupero la clasificación realizada con el modelo MULTI-ETIQUETA con FINETUNING
 [3_GPT_evaluate_finetuning_multi_2.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/990cde5d2f511aa7707fb6fca91ea4da732965fd/3_GPT_evaluate_finetuning_multi_2.ipynb)
 
 
+** comparacion de modelos **
+Para finalizar se realizaron dos Notebooks que simplifican la comparación de los modelos
 
+[4_model_comparison_bin.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/30ef848846eb50bdbffbada1a194204e19f20ee3/4_model_comparison_bin.ipynb)
+
+
+[4_model_comparison_multilabel.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/30ef848846eb50bdbffbada1a194204e19f20ee3/4_model_comparison_multilabel.ipynb)
 
 
 
