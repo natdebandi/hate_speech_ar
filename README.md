@@ -18,7 +18,7 @@ BETO (Bert en español) binario  (hateful / not hateful)
 
 BETO (BERT en español) multietietiqueta (hateful, WOMEN, RACISM, etc.)
 
-[1_finetunning_BETO_multiclass2.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/97221e5efae9ebfe0ad9e52142fe3b270ac1d3bd/1_finetuning_BETO_multiclass2.ipynb))
+[1_finetunning_BETO_multiclass2.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/97221e5efae9ebfe0ad9e52142fe3b270ac1d3bd/1_finetuning_BETO_multiclass2.ipynb)
 
 Cuaderno de pruebas de los moelo BETO
 [prueba_modelos.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/a03a6a396c0741589779d9ba91031ca328ab25d8/prueba_modelos.ipynb)
@@ -60,6 +60,8 @@ Este último proceso consiste en realizar un finetuning de GPT 3.5 (GPT 4 no est
 
 Para ello se preparó el archivo de finetunning (similar al esquema de BATCH) y se envía a GPT para entrenamiento. Luego se recupera el resultado (GET) y se envía el archivo de TEST para clasificación con el nuevo modelo (nuevamente medinte batch) y finalmente se obtiene el resultado y se envalua. Es decir que hay tres notebooks involucradas:
 
+*Finetunning GPT 3.5 BINARIO:*
+
 Preparación archivo para fine tunning:
 
 [3_GPT_finetuning_bin.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/ffbf927fec6207eace6612ee0c148967862a588e/3_GPT_finetuning_bin.ipynb)
@@ -70,8 +72,20 @@ Recuperacón del modelo, evaluación inicial del modelo y preparación de archiv
 
 Recupero la clasificación realizada con el modelo binario con FINETUNING al conjunto de test y aplico las métricas:
 
-[3_GPT_evaluate_bin_finetuning_2.ipynb)](https://github.com/natdebandi/hate_speech_ar/blob/2da1dfac5d7ad5e20c43f5a5838a3bc6a5edde6c/3_GPT_evaluate_bin_finetuning_2.ipynb)
+[3_GPT_evaluate_bin_finetuning_2.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/2da1dfac5d7ad5e20c43f5a5838a3bc6a5edde6c/3_GPT_evaluate_bin_finetuning_2.ipynb)
 
+*Finetunning GPT 3.5 Multietiqueta (hateful, WOMEN, RACISM, etc.)*
+Preparación archivo para fine tunning:
+
+[3_GPT_finetuning_multiclass.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/990cde5d2f511aa7707fb6fca91ea4da732965fd/3_GPT_finetuning_multiclass.ipynb)
+
+Recuperacón del modelo, evaluación inicial del modelo y preparación de archivo para usar el claisificador nuevo (vía BATCH):
+
+[3_GPT_evaluate_finetuning_multi.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/990cde5d2f511aa7707fb6fca91ea4da732965fd/3_GPT_evaluate_finetuning_multi.ipynb)
+
+Recupero la clasificación realizada con el modelo MULTI-ETIQUETA con FINETUNING al conjunto de test y aplico las métricas:
+
+[3_GPT_evaluate_finetuning_multi_2.ipynb](https://github.com/natdebandi/hate_speech_ar/blob/990cde5d2f511aa7707fb6fca91ea4da732965fd/3_GPT_evaluate_finetuning_multi_2.ipynb)
 
 
 
